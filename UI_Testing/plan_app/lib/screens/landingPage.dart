@@ -67,11 +67,6 @@ class _LandingPageState extends State<LandingPage> {
                     _buildTaskCard("Mathematices", "29 Dec 2019", "SC", "2", "1"),
                     _buildTaskCard("English", "31 Dec 2019", "SC", "3", "1"),
                     _buildTaskCard("Science", "1 Jan 2020", "SA", "2", "2"),
-                    _buildTaskCard("Science", "1 Jan 2020", "SA", "2", "2"),
-                    _buildTaskCard("Science", "1 Jan 2020", "SA", "2", "2"),
-                    _buildTaskCard("Science", "1 Jan 2020", "SA", "2", "2"),
-
-
 
                   ],
                 ),
@@ -107,7 +102,7 @@ class _LandingPageState extends State<LandingPage> {
       bottomNavigationBar: FFNavigationBar(
         theme: FFNavigationBarTheme(
         barBackgroundColor: Colors.white,
-        selectedItemBorderColor: Colors.grey[300],
+        selectedItemBorderColor: Colors.transparent,
         selectedItemBackgroundColor: Color(0xFF825dfe),
         selectedItemIconColor: Colors.white,
         selectedItemLabelColor: Colors.black,
